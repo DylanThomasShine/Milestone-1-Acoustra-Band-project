@@ -1,18 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
 
-
+/*------------------------------------------Headings*/
 .logo {
-    text-align: center;
+   text-align: center;
 }
 body {
-    background-color: #eeeeee;
+    background-color: #030303;
+}
+
+.whatwedo-info {
+    color: #fafafa;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.testimonials {
+    color: #fafafa;
+    font-family: "Roboto", sans-serif;
+}
+
+.heading-colours {
+    color:rgb(201, 191, 137);
+    font-family: "Roboto", sans-serif;
+}
+
+
+.band-promise-heading{
+    font-family: "Roboto", sans-serif;
+    color:rgb(201, 191, 137);  
 }
 
 /*------------------------------------------Menu*/
 nav {
     width: 100%;
     height: 100px;
-    background-color: #fafafa;
+    background-color: rgb(201, 191, 137);
 }
 
 .menu {
@@ -43,24 +65,10 @@ nav {
 }
 
 .menu li a:hover {
-    color: red;
+    color: rgb(95, 72, 8);
 }
 
-.band-info {
-    font-family: "Roboto", sans-serif;
-    text-align: center;
-    display: inline-block;
-}
-
-.band-promise-heading{
-    font-family: "Roboto", sans-serif;
-    
-}
-
-.band-promise {
-    font-family: "Roboto", sans-serif;
-    
-}
+/*------------------------------------------Info/Forms*/
 .photo {
     height: 600px;
     width: 100%;
@@ -68,19 +76,71 @@ nav {
    text-align: center;
 }
 
-.video-container {
-   margin-left: 100px;
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
-    height: 0;
-    overflow: hidden;
+.band-info {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    display: inline-block;
+    color: #fafafa;
 }
 
+.form-style {
+    color:rgb(201, 191, 137);
+    font-family: "Roboto", sans-serif;
+}
+
+.form-style-2 {
+    font-family: "Roboto", sans-serif;
+}
+
+.input-form {
+    display: inline-block;
+}
+
+.contact-info {
+    float: left;
+}
+
+.contact-info, p {
+    color: #fafafa;
+    font-family: "Roboto", sans-serif;
+}
+
+.submit-button {
+    background-color:rgb(201, 191, 137);
+    font-family: "Roboto", sans-serif;
+}
+
+.submit-button:hover {
+    color: rgb(95, 72, 8);
+}
+
+.date-style {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.band-promise {
+    font-family: "Roboto", sans-serif;
+    color: #fafafa;
+    
+}
+
+/*------------------------------------------Videos*/
+
+.video-container-1 {
+    float: left;
+}
+
+.video-container-2 {
+    display: inline-block;
+}
 
 /*------------------------------------------Footer*/
 .copyright {
     text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #fafafa;
 }
 
 footer{
@@ -100,7 +160,7 @@ footer{
    font-size: 160%;
    margin: 1%;
    padding: 5%;
-   color: #777777;
+   color:rgb(201, 191, 137);
  }
 
 
