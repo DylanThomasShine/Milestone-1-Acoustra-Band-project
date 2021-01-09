@@ -30,6 +30,11 @@ body {
     color:rgb(201, 191, 137);  
 }
 
+.dancing-couple {
+    height: 30px;
+    width: 30px;
+}
+
 /*------------------------------------------Menu*/
 nav {
     width: 100%;
