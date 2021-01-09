@@ -132,8 +132,11 @@ nav {
 
 .band-promise {
     font-family: "Roboto", sans-serif;
-    color: #fafafa;
-    
+    color: #fafafa;    
+}
+
+.line {
+    text-align: center;
 }
 
 /*------------------------------------------Videos*/
