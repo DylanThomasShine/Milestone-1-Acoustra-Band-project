@@ -4,6 +4,12 @@
 .logo {
    text-align: center;
 }
+
+.logo-small {
+    height: 60px;
+    width: 100px;
+}
+
 body {
     background-color: #030303;
 }
@@ -156,6 +162,11 @@ footer{
    text-align: center;
   
  }
+
+.social-networks li:hover {
+     color: rgb(95, 72, 8);
+}
+
  .social-networks li {
    display: inline;
   
