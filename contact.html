@@ -8,26 +8,17 @@
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
 </head>
-<body>
+<body class="body-colour">
     <header>
-        <div class="logo">
-        <a href="index.html">
-            <img src="assets/images/logo.png"></a></div>
-            <!--These are logo's and photos taken from the band for the purpose of this project and given full permission to use these images-->
-                <div><img class="photo" src="assets/images/photoband.jpg"></div>
-            <div class="menu">
-                <nav>
-                <ul>
-                       <li><a href="index.html"><i class="fas fa-home"></i>  Home</a></li>
-                       
-                       <li><a href="whatwedo.html"><i class="fas fa-guitar"></i>  What We Do</a></li>   
-                        <li><a href="contact.html"><i class="fas fa-phone"></i>  Contact</a></li>
-                </ul>
-            </nav>  
-            </div>
+         <div class="navbar">
+            <a><img src="assets/images/logo.png" width="400" height="80" alt=""> </a>
+  <a href="index.html"><i class="fas fa-home"></i> Home</a>
+  <a href="whatwedo.html"><i class="fas fa-guitar"></i> What We Do</a>
+  <a href="contact.html"><i class="fas fa-phone"></i> Contact</a>
+</div>
     </header>  
     <br>
-
+<!---------------Band contact details---------->
     <section>
         <div class="contact-info">
             <h2 class="heading-colours">CONTACT US</h2>         
@@ -38,7 +29,8 @@
                 acoustra@gmail.com
             </p>
         </div>
-<!--I had played around here with different styles and content for the forms until i finally settled on what is below-->
+    </section>
+<!-----------------Contact Form--------------->
 
         <div class="input-form">
  <form class="form-style" method="post" action="acoustra@gmail.com">
@@ -52,17 +44,23 @@
   <input type="text" id="venue" name="venue" required><br>
   <label for="date">Date*:</label><br>
   <input type="date" id="date" name="date" class="date-style" required><br>
-  <label for="message">Message:</label><br>
-  <textarea for="message" class="form-style-2" placeholder="Please add anymore information you'd like"></textarea><br><br>
+  <div class="form-floating">
+      <label for="floatingTextarea2">Message</label>
+  <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea2" style="height: 100px"></textarea>
+</div>
+
+  <br><br>
   <input class="submit-button" type="submit" value="SEND EMAIL">
 </form>
-        </div>
+</div>
+ 
         
-        <!--I added the spotify link to the band's original music while retaining the same style icons already used-->
-    </section>
+        <!--Social Media links and icons-->
+    
         <footer>
-            <div class="wba"><a href ="https://weddingbandassociation.ie/" target="_blank"><img src="assets/images/wba.png"></a></div>
-        <div class="social-networks">
+            <div class="wba">
+                <a href ="https://weddingbandassociation.ie/" target="_blank"><img src="assets/images/wba.png" width="150" height="150" alt=""></a>
+            </div>
         <div class="social-networks">
         <ul>
             <li><a href="https://www.facebook.com/Acoustra/" target="_blank"><i class="fab fa-facebook"> </i></a></li>
@@ -71,7 +69,10 @@
             <li><a href="https://open.spotify.com/embed/artist/1IcCTGmLR5P0IZUBXE4FvD" target="_blank"><i class="fab fa-spotify"></i></a></li>
         </ul>
         </div>
-        <div class="copyright"><a>© acoustra music 2020</a></div>
+        
+        <div class="copyright">
+            <a>© acoustra music 2020</a>
+        </div>
         <br>
     </footer>
     
