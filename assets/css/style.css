@@ -42,7 +42,7 @@
 .navbar {
   overflow: hidden;
   background-color: rgb(167, 158, 113);
-  position: fixed; 
+  position: sticky; 
   top: 0; 
   width: 100%; 
   
