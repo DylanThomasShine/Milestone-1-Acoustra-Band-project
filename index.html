@@ -11,16 +11,25 @@
 <body>
 
     <!-------------------------Header--------------------------->
-     <div class="header">
-         <a> <img src="assets/images/logo.png" width="400" height="80" alt=""> </a>
-  <a href="#index.html"><i class="fas fa-home"></i> Home</a>
-  <a href="#whatwedo.html"><i class="fas fa-guitar"></i> What We Do</a>
-  <a href="#contact.html"><i class="fas fa-phone"></i> Contact</a>
-     </div>
+     <nav>
+      <div class="logo">
+         <a> <img src="assets/images/logo.png" width="300" height="80" alt=""> </a>
+      </div>  
+         <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+         <ul>
+          <li class="active"><a href="#index.html"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="#whatwedo.html"><i class="fas fa-guitar"></i> What We Do</a></li>
+          <li><a href="#contact.html"><i class="fas fa-phone"></i> Contact</a></li>
+          </ul>
+      
+       </nav>
      <div id="index.html">
          <img class="photo" src="assets/images/photo.jpg">
      </div>
-
+   
      <!--------------------------Main Content------------------------>
 
     
@@ -206,8 +215,8 @@ Enniscrone
             <li><a href="https://www.youtube.com/user/acoustra" target="_blank"><i class="fab fa-youtube-square"> </i></a></li>
             <li><a href="https://open.spotify.com/embed/artist/1IcCTGmLR5P0IZUBXE4FvD" target="_blank"><i class="fab fa-spotify"></i></a></li>
         </ul>
-       <a>© acoustra music 2020</a>
-       <br>
+       <a class="copyright"><strong>© acoustra music 2020</strong></a>
+       <br><br>
         </div>
        
 </div>
