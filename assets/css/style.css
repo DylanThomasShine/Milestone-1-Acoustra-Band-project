@@ -23,6 +23,14 @@ Body {
 
 /*----------------------------------------Header/Nav Bar------------------------------------*/
  
+.photo {
+height: 100%;
+width: 100%;
+object-fit: contain;
+text-align: center;
+margin-top: 80px;
+}
+
 nav{
   display: flex;
   height: 80px;
@@ -32,6 +40,7 @@ nav{
   justify-content: space-between;
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
+  position: fixed;
 }
 nav .logo{
   color: #fff;
@@ -230,7 +239,7 @@ margin-left: 40px;
  }
 
 .social-networks i:hover {
-     color: rgb(201, 191, 137);
+     color: rgb(219, 208, 147)
 }
 
  .social-networks li {
