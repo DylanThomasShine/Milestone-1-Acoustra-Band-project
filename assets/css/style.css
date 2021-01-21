@@ -22,7 +22,11 @@ Body {
 }
 
 /*----------------------------------------Header/Nav Bar------------------------------------*/
- 
+
+.logo {
+    box-shadow:0 0 15px 4px #fafafa;
+}
+
 .photo {
 height: 100%;
 width: 100%;
@@ -129,7 +133,14 @@ input[type="checkbox"]{
 /*---------------------------------------Body Content-----------------------------------------*/
 
 .heading-colours {
-color:rgb(201, 191, 137);
+    color:rgb(201, 191, 137);
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    box-shadow:0 0 15px 4px #fafafa;
+}
+
+.heading-colours-2 {
+    color:rgb(201, 191, 137);
 font-family: "Roboto", sans-serif;
 text-align: center;
 }
@@ -142,6 +153,7 @@ text-align: center;
 
 .video {
     text-align: center;
+    
 }
 
 .band-promise {
@@ -159,6 +171,7 @@ text-align: center;
     font-family: "Roboto", sans-serif;
     color:rgb(201, 191, 137); 
     text-align: center; 
+    box-shadow:0 0 15px 4px #fafafa;
 }
 
 .whatwedo-info {
@@ -186,6 +199,7 @@ text-align: center;
 
 /*------------------------------------------Contact Form---------------------------------------*/
 
+
 .form-style {
     color:rgb(201, 191, 137);
     font-family: "Roboto", sans-serif;
@@ -196,8 +210,8 @@ text-align: center;
 }
 
 .input-form {
-  margin: auto; 
-  width: 100%;
+  margin: auto;
+  width: 50%;
   padding:10px;
   border:0;
   box-shadow:0 0 15px 4px #fafafa;
@@ -243,6 +257,7 @@ text-align: center;
 .social-networks {
    text-align: center;
    margin-bottom: 30px;
+   font-size: 160%;
   
  }
 
