@@ -131,11 +131,13 @@ input[type="checkbox"]{
 .heading-colours {
 color:rgb(201, 191, 137);
 font-family: "Roboto", sans-serif;
+text-align: center;
 }
 
 .band-info {
     font-family: "Roboto", sans-serif;
     color: #fafafa;
+    text-align: center;
 }
 
 .video {
@@ -144,7 +146,8 @@ font-family: "Roboto", sans-serif;
 
 .band-promise {
     font-family: "Roboto", sans-serif;
-    color: #fafafa;    
+    color: #fafafa; 
+    text-align: center;   
 }
 
 .line {
@@ -154,12 +157,14 @@ font-family: "Roboto", sans-serif;
 
 .band-promise-heading{
     font-family: "Roboto", sans-serif;
-    color:rgb(201, 191, 137);  
+    color:rgb(201, 191, 137); 
+    text-align: center; 
 }
 
 .whatwedo-info {
     color: #fafafa;
     font-family: "Roboto", sans-serif;
+    text-align: center;
 }
 
 .logo-small {
@@ -171,6 +176,7 @@ font-family: "Roboto", sans-serif;
 .testimonials {
     color: #fafafa;
     font-family: "Roboto", sans-serif;
+    text-align: center;
 }
 
 .dancing-couple {
@@ -190,15 +196,17 @@ font-family: "Roboto", sans-serif;
 }
 
 .input-form {
-margin-left: 40px;
+  margin: auto; 
+  width: 100%;
   padding:10px;
   border:0;
-  box-shadow:0 0 15px 4px rgba(182, 160, 95, 0.06);
-  display: inline-block;
+  box-shadow:0 0 15px 4px #fafafa;
+  display: block;
+  text-align: center;
 }
 
 .contact-info {
-    float: left;
+    text-align: center;
 }
 
 .contact-info, p {
