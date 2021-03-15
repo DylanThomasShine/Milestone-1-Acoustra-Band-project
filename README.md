@@ -1,24 +1,24 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Milestone 1 Acoustra band webpage
+##Milestone 1 Acoustra band webpage
 
-User Experience (UX)
+###User Experience (UX)
 
-User stories
+####User stories
 
-First Time Visitor Goals
+#####First Time Visitor Goals
 
 As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the band
 As a First Time Visitor, I want to be able to easily navigate throughout the site to find information on the type of band they are.
 As a First Time Visitor, I want to look for testimonials to understand what the previous couples think of them and are they a good wedding band. I also want to locate their social media links to see their followings on social media to determine how reliable and known they are.
 
-Returning Visitor Goals
+#####Returning Visitor Goals
 
 As a Returning Visitor, I want to find information about the band.
 As a Returning Visitor, I want to find the best way to get in contact with the band with any queries I may have.
 As a Returning Visitor, I want to see is there anymore information I may know about the band.
 
-Frequent User Goals
+#####Frequent User Goals
 
 As a Frequent User, I want to check to see if there are any newly added songs to their setlist.
 As a Frequent User, I want to check to see if there are any new original songs they are releasing and where to find them.
@@ -28,13 +28,13 @@ This webpage is designed to be effective and efficient in providing the user wit
 The site will provide a very quick and easy interface to contact and communicate with the band.
 All the information they need from a history of the band to videos and audio files along with links to social media will all appear on the first page and grab their attention immediately
 
-The Client
+#####The Client
 Acoustra are a hard working wedding band. Their goal is to show the user what they are capable of music wise and what they can offer a wedding couple on their special night.
 The band are incredibly friendly and very approachable and easy to talk to. They have been renowned for their personal involvement with couples helping them with every aspect of their wedding day even down to having special arrangements with the management of the venue hosting the wedding. They provide a full service form Ceremony to Reception to Live band and then DJ. They even have been known to stay overnight and have a sing song into the wee hours of the morning.
 
-Design
+####Design
 
-Colour Scheme
+#####Colour Scheme
 
 The three main colours used are rgb(201, 191, 137), this is an off yellow colour that the band use in their Logo. The second colour is rgb(95, 72, 8), this is a darker yellow almost brown colour to emphasize the social media links and the nav menu choices. The third colour is black, again the band use this colour along with yellow as their theme for flyers and business cards.
 Typography
@@ -42,21 +42,21 @@ The Roboto font is the main font used throughout the whole website with Sans Ser
 Imagery
 Imagery is important. The large, main image is to show the user exactly who the members are so they know who is going to show up n the night of their wedding.
 
-Wireframes
+####Wireframes
 
 Please click the following link to view the wireframes for the project:---------> https://github.com/DylanThomasShine/Milestone-1-Acoustra-Band-project/blob/master/assets/wireframes/Acoustra%20Band%20Wireframes.pdf
 
-Features
+####Features
 
 Responsive on all device sizes
 
 Interactive elements such as the Contact Form and social media links
 
-Technologies Used
+####Technologies Used
 
-Languages Used
-HTML5
-CSS3
+####Languages Used
+**HTML5
+**CSS3
 
 Frameworks, Libraries & Programs Used
 
