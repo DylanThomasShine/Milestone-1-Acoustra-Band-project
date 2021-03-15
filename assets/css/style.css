@@ -83,6 +83,7 @@ nav .menu-btn i{
   font-size: 22px;
   cursor: pointer;
   display: none;
+  transition: all .5s ease-in-out;
 }
 input[type="checkbox"]{
   display: none;
@@ -94,7 +95,7 @@ input[type="checkbox"]{
 }
 @media (max-width: 920px) {
   nav .menu-btn i{
-    display: block;
+    display: flex;
   }
 
   #click:checked ~ .menu-btn i:before{
@@ -300,7 +301,7 @@ text-align: center;
  .social-networks i {
    font-size: 160%;
    margin: 1%;
-   padding: 5%;
+   padding: 0;
    color:rgb(95, 72, 8);
 
  }
