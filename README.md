@@ -69,9 +69,7 @@ Interactive elements such as the Contact Form and social media links
 
 ## _Technologies & Languages Used_
 
- ![HTML5 logo](assets/images/html5logo.png)
-
- ![CSS3 logo](assets/images/css3logo.png)
+ ![HTML5 logo](assets/images/html5logo.png)   ![CSS3 logo](assets/images/css3logo.png)
 
 ### **Frameworks, Libraries & Programs Used**
 
