@@ -111,9 +111,9 @@ Balsamiq was used to create the wireframes during the design process.
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-[_**W3C Markup Validator**_](https://validator.w3.org/nu/#l169c53 "Dylan's Results") - Results:
+![_**W3C Markup Validator**_](/assets/images/acoustrahtmlresults.png) HTML Results
 
-[_**W3C CSS Validator**_](https://validator.w3.org/nu/#l1c81 "Dylan's Results") - Results:
+![_**W3C CSS Validator**_](/assets/images/acoustracssresults.png) CSS Results
 
 
 ___
