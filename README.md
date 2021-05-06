@@ -179,8 +179,7 @@ A large amount of testing was done to ensure that all pages were linking correct
 I got my wife and son to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### **Known Bugs**
-In the validation some results were returned that i did not believe were that important as to have any affect on the webpages performance. The page clearly performed as it was meant to.
-All links in Navbar are working perfectly but the drop down menu in the mobile view seems to stay on the dropdown menu when the link is clicked and the user has to X out of that window to view their selection.
+All tests have returned with zero problems. Any and all bugs were dealt with and committed accordingly.
 
 ___
 
